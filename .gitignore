@@ -1,0 +1,21 @@
+# 가상환경
+venv/
+env/
+.venv/
+
+# 환경변수 (API 키 보호 - 가장 중요!)
+.env
+
+# 파이썬 찌꺼기 파일들
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 로그 및 DB 파일 (테스트용)
+*.log
+*.sqlite3
+
+# OS 시스템 파일 (맥/윈도우 찌꺼기)
+.DS_Store
+Thumbs.db
